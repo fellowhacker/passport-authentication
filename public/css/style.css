@@ -1,0 +1,33 @@
+h1 {
+
+	color: blue;
+
+}
+
+.log_reg_width, .navibar {
+
+	width: 50%;
+	margin: 0 auto;
+
+}
+
+@media screen and (max-width: 500px) {
+
+	.log_reg_width {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+}
+
+.navibar {
+	border-bottom: 1px solid grey;
+}
+
+@media screen and (max-width: 800px) {
+
+	.navibar {
+		width: 100%;
+	}
+
+}
